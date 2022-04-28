@@ -53,3 +53,12 @@ _________________________
 ________________________
 
 [![dfhsdhgskfkshfksf](https://img.youtube.com/vi/RHPYGwVQB2o/0.jpg)](https://youtu.be/RHPYGwVQB2o)
+______________________________
+
+| LEFT | CENTER | RIGHT |
+
+|----------------|:---------:|----------------:|
+
+| По левому краю | По центру | По правому краю |
+
+| GGG | GGG | GGG |
