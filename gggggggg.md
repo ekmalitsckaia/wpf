@@ -20,3 +20,4 @@ ________________________________________
     </StackPanel>
 </Window>
 ```
+![sdad](https://metanit.com/sharp/wpf/pics/11.1.png)
