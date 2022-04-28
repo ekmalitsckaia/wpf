@@ -36,4 +36,42 @@ Binding binding = BindingOperations.GetBinding(myTextBlock, TextBlock.TextProper
 В данном случае получаем привязку для свойства зависимостей TextProperty элемента myTextBlock.
 
 Также можно полностью установить привязку в коде C#:
+```C#
+public MainWindow()
+{
+    InitializeComponent();
+ 
+ 
+    Binding binding = new Binding();
+ 
+    binding.ElementName = "myTextBox"; // элемент-источник
+    binding.Path = new PropertyPath("Text"); // свойство элемента-источника
+    myTextBlock.SetBinding(TextBlock.TextProperty, binding); // установка привязки для элемента-приемника
+}
+```
+Если в дальнейшем нам станет не нужна привязка, то мы можем воспользоваться классом **BindingOperations** и его методами **ClearBinding()**(удаляет одну привязку) и **ClearAllBindings()** (удаляет все привязки для данного элемента)
+```C#
+	
+BindingOperations.ClearBinding(myTextBlock, TextBlock.TextProperty);
+```
+или
+```C#
+BindingOperations.ClearAllBindings(myTextBlock);
+```
+Некоторые свойства класса **Binding**:
 
+- **lementName**: имя элемента, к которому создается привязка
+
+- **IsAsync**: если установлено в True, то использует асинхронный режим получения данных из объекта. По умолчанию равно False
+
+- **Mode**: режим привязки
+
+- **Path**: ссылка на свойство объекта, к которому идет привязка
+
+- **TargetNullValue**: устанавливает значение по умолчанию, если привязанное свойство источника привязки имеет значение null
+
+- **RelativeSource**: создает привязку относительно текущего объекта
+
+- **Source**: указывает на объект-источник, если он не является элементом управления.
+
+- **XPath**: используется вместо свойства path для указания пути к xml-данным
