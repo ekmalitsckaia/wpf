@@ -48,7 +48,7 @@ _______________________
 
 _________________________
 
-![Alt-текст](https://yandex.ru/images/search?rpt=simage&noreask=1&source=qa&text=%D0%9F%D1%83%D1%82%D0%B8%D0%BD+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87&stype=image&lr=51&family=yes&parent-reqid=1651129890900250-3893515145046554063-vla1-4706-vla-l7-balancer-8080-BAL-9336 "Орк")
+![Alt-текст](https://yandex.ru/images/search?text=%D0%9F%D1%83%D1%82%D0%B8%D0%BD%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%20%D1%84%D0%BE%D1%82%D0%BE&img_url=https%3A%2F%2Fxn--80adbhunc2aa3al.xn--80asehdb%2Fupload%2F000%2Fu0%2F000%2Ff146a8ad.jpg&rpt=simage&source=qa&stype=image&lr=51&family=yes&parent-reqid=1651129890900250-3893515145046554063-vla1-4706-vla-l7-balancer-8080-BAL-9336 "Орк")
 
 ________________________
 
